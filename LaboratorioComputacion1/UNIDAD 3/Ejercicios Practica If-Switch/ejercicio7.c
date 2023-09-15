@@ -19,18 +19,18 @@ void main()
         {
             descuentoVenta = ventaRealizada * 0.15;
             ventaTotal = ventaRealizada - descuentoVenta;
-            printf("Su monto a pagar con un 15 de descuento es: %f\n", ventaTotal);
+            printf("Su monto a pagar con un 15 de descuento es: %0.2f\n", ventaTotal);
         }
         else if (ventaRealizada < 100000)
         {
             descuentoVenta = ventaRealizada * 0.10;
             ventaTotal = ventaRealizada - descuentoVenta;
-            printf("Su monto a pagar con un 10 de descuento es: %f\n", ventaTotal);
+            printf("Su monto a pagar con un 10 de descuento es: %0.2f\n", ventaTotal);
         }
     }
     else
     {
-        printf("La venta debe ser mayor a 0. ");
+        printf("La venta debe ser mayor a 0. \n");
     }
 
     system("pause");
