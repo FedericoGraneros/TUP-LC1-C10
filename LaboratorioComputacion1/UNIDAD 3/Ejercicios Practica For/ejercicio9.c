@@ -14,8 +14,10 @@ void main()
         printf("Tabla del multiplicador del %d\n", j);
         for (int i = 0; i <= 10; i++)
         {
-         multiplo = i + j;
-         printf("%d X %d = %d \n");
+         multiplo = i * j;
+         printf("%d X %d = %d \n", i, j, multiplo);
         }
     }
+
+    system("pause");
 }
