@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//bucle infinito.
+
 int main() 
 {
     int i = 1;

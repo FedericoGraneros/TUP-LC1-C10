@@ -16,9 +16,9 @@ int main()
     printf("Ingresar el otro lado del rectangulo: ");
     scanf("%f", &lado2);
 
-    resultado = pow(lado1, 2) + pow(lado2, 2);
+    resultado = pow(lado1, 2) + pow(lado2, 2); // pow es potencia
     
-    resultado = sqrt(resultado);
+    resultado = sqrt(resultado); // sqrt la raiz
     printf("Esta es la diagonal principal del rectangulo: %f\n", resultado);
 
     //superficie
