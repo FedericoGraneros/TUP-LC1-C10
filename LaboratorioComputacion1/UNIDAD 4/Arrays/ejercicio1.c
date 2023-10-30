@@ -6,16 +6,16 @@ forma: “Índice: X, Valor: Y” en el orden ingresado y de atrás hacia adelan
 
 int main()
 {
-    int edades[5] = {10, 20, 30, 40, 50};
+    int edades[5] = {10, 20, 30, 40, 50};  // array con valores ya puestos
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++)  // muestro indice X - valor Y
     {
         printf("Indice: %d Valor: %d\n", i + 1, edades[i]);
         }
 
-    printf("De atras hacia adelante. \n");
+    printf("De atras hacia adelante. \n"); 
 
-        for (int i = 5-1; i >= 0; i--)
+        for (int i = 5-1; i >= 0; i--) // para mostrarlo de atras hacia adelante pongo la cantidad -1, i hasta mayor o igual a 0 con i--
     {
         printf("Indice: %d Valor: %d\n", i + 1, edades[i]);
     }
